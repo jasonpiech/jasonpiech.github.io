@@ -1,0 +1,14 @@
+baseURL = "https"  # This will be replaced by your GitHub URL later
+languageCode = "en-us"
+title = "Jason Piech"
+theme = "PaperMod"
+
+[params.profileMode]
+  enabled = true
+  title = "Jason Piech"
+  subtitle = "Hodling since 2023"
+  imageUrl = "/images/First_website_profile.jpg" # (Optional) Put a photo in static/images/
+  buttons = [
+    { name = "Articles", url = "/articles" },
+    { name = "About", url = "/about" }
+  ]
