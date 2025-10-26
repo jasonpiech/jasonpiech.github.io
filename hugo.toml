@@ -1,4 +1,4 @@
-baseURL = "https"  # This will be replaced by your GitHub URL later
+baseURL = "https://jasonpiech.github.io"  # This will be replaced by your GitHub URL later
 languageCode = "en-us"
 title = "Jason Piech"
 theme = "PaperMod"
