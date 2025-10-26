@@ -7,7 +7,7 @@ theme = "PaperMod"
   enabled = true
   title = "Jason Piech"
   subtitle = "Hodling since 2023"
-  imageUrl = "/images/First_website_profile.jpg" # (Optional) Put a photo in static/images/
+  imageUrl = "/Images/First_website_profile.jpg" # (Optional) Put a photo in static/images/
   buttons = [
     { name = "Articles", url = "/articles" },
     { name = "About", url = "/about" }
