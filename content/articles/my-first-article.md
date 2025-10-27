@@ -1,5 +1,5 @@
 +++
-date = 2025-11-02
+date = 2025-10-27
 draft = false
 title = '...'
 +++
