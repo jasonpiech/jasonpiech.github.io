@@ -1,7 +1,7 @@
 +++
-date = '2025-10-25T13:45:40-07:00'
+date = 2025-11-02
 draft = false
-title = 'My First Article'
+title = '...'
 +++
 
-"...The Times 03/Jan/2009 Chancellor on Brink of Second Bailout for Banks..."
+"When in doubt, HODL and trust the process." - Halley553
