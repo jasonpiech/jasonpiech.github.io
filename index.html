@@ -1,92 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Jason Piech</title>
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="site.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jason Piech</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="site.css" />
 </head>
+
 <body>
 
-<div class="shell">
+  <div class="shell">
 
-  <nav class="top-nav">
-    <a href="index.html" aria-current="page">Home</a>
-    <a href="projects.html">Projects</a>
-    <a href="about.html">About</a>
-  </nav>
+    <nav class="top-nav">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About</a>
+    </nav>
 
-  <header class="hero">
-    <div class="headshot" role="img" aria-label="Jason Piech"></div>
-    <div>
-      <h1>Jason Piech</h1>
-      <div class="who">Freshman, UC Berkeley · Economics &amp; Computer Science</div>
+    <header class="hero">
+      <div class="headshot" role="img" aria-label="Jason Piech"></div>
+      <div>
+        <h1>Jason Piech</h1>
+        <div class="who">Freshman, UC Berkeley · Economics &amp; Computer Science</div>
+      </div>
+    </header>
+
+    <section class="lede">
+      <p>
+        Investigating interesting things.
+      </p>
+    </section>
+
+    <div class="sect-h">
+      <span class="meta">Currently</span>
+      <h2>What I'm working on</h2>
     </div>
-  </header>
+    <div class="entry-list">
+      <article class="entry">
+        <div class="meta">
+          <span class="lbl">Status <strong>Draft</strong></span>
+          <span class="lbl">Article</span>
+          <!-- <span class="lbl"><span class="status active">Active</span></span> -->
+        </div>
+        <div class="title active">
+          <a href="#" onclick="event.preventDefault()">A Behavioral Analysis of Bitcoin HODLing</a>
+          <span class="desc">Detailed delve into the behavioral side of Bitcoin</span>
+        </div>
+      </article>
+    </div>
+    <div class="entry-list">
+      <article class="entry">
+        <div class="meta">
+          <span class="lbl">Status <strong>In Progress</strong></span>
+          <span class="lbl">Engineering</span>
+          <!-- <span class="lbl"><span class="status active">Active</span></span> -->
+        </div>
+        <div class="title active">
+          <a href="#" onclick="event.preventDefault()">Stealth</a>
+          <span class="desc">...</span>
+        </div>
+      </article>
+    </div>
 
-  <section class="lede">
-    <p>
-      I build small, careful things at the seam between economics and computer science —
-      mostly around Bitcoin, market data, and the tools used to study them.
-    </p>
-  </section>
+    <!-- <div class="sect-h">
+      <span class="meta">Selected</span>
+      <h2>Recent projects</h2>
+    </div>
+    <div class="entry-list">
+      <article class="entry">
+        <div class="meta">
+          <span class="lbl">Nov 2025</span>
+          <span class="lbl">Notebook</span>
+          <span class="lbl"><span class="status draft">Draft</span></span>
+        </div>
+        <div class="title">
+          <a href="#" onclick="event.preventDefault()">BTC volatility regimes</a>
+          <span class="desc">Rolling-window study fitting GARCH variants to daily returns.</span>
+        </div>
+      </article>
+      <article class="entry">
+        <div class="meta">
+          <span class="lbl">Nov 2025</span>
+          <span class="lbl">Essay</span>
+          <span class="lbl"><span class="status done">Published</span></span>
+        </div>
+        <div class="title">
+          <a href="article.html">When in doubt, HODL and trust the process.</a>
+          <span class="desc">On the discipline of holding a position over a long enough time horizon.</span>
+        </div>
+      </article>
+    </div> -->
 
-  <div class="sect-h">
-    <span class="meta">Currently</span>
-    <h2>What I'm working on</h2>
+    <footer class="foot">
+      <span>Jason Piech · Berkeley, CA</span>
+      <span>Updated May 2026</span>
+    </footer>
+
   </div>
-  <div class="entry-list">
-    <article class="entry">
-      <div class="meta">
-        <span class="lbl">Started <strong>Oct 2025</strong></span>
-        <span class="lbl">Essay series</span>
-        <span class="lbl"><span class="status active">Active</span></span>
-      </div>
-      <div class="title active">
-        <a href="article.html">The Fundamentals of HODLing</a>
-        <span class="desc">A six-part series on time horizon, custody, and conviction. <em>One published, five drafting.</em></span>
-      </div>
-    </article>
-  </div>
-
-  <div class="sect-h">
-    <span class="meta">Selected</span>
-    <h2>Recent projects</h2>
-  </div>
-  <div class="entry-list">
-    <article class="entry">
-      <div class="meta">
-        <span class="lbl">Nov 2025</span>
-        <span class="lbl">Notebook</span>
-        <span class="lbl"><span class="status draft">Draft</span></span>
-      </div>
-      <div class="title">
-        <a href="#" onclick="event.preventDefault()">BTC volatility regimes</a>
-        <span class="desc">Rolling-window study fitting GARCH variants to daily returns.</span>
-      </div>
-    </article>
-    <article class="entry">
-      <div class="meta">
-        <span class="lbl">Nov 2025</span>
-        <span class="lbl">Essay</span>
-        <span class="lbl"><span class="status done">Published</span></span>
-      </div>
-      <div class="title">
-        <a href="article.html">When in doubt, HODL and trust the process.</a>
-        <span class="desc">On the discipline of holding a position over a long enough time horizon.</span>
-      </div>
-    </article>
-  </div>
-
-  <footer class="foot">
-    <span>Jason Piech · Berkeley, CA</span>
-    <span>Updated May 2026</span>
-  </footer>
-
-</div>
 
 </body>
+
 </html>
